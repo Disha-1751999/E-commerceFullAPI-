@@ -1,0 +1,988 @@
+{
+	"info": {
+		"_postman_id": "ebedcb29-84de-428f-9dbc-364f3f0827d8",
+		"name": "E-commerceAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31314194",
+		"_collection_link": "https://www.postman.com/disha-fec/workspace/e-commerceapi/collection/31314194-ebedcb29-84de-428f-9dbc-364f3f0827d8?action=share&source=collection_link&creator=31314194"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "ProductBrandList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductBrandList",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductBrandList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductCategoryList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductCategoryList",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductCategoryList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductSliderList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductSliderList",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductSliderList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByBrand",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductListByBrand/64f8751a502e1b80556da142",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductListByBrand",
+								"64f8751a502e1b80556da142"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByCategory",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductListByCategory/64f875ed502e1b80556da14d",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductListByCategory",
+								"64f875ed502e1b80556da14d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListBySimilarity",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductListBySimilarity/64f875ed502e1b80556da14d",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductListBySimilarity",
+								"64f875ed502e1b80556da14d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByKeyword",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductListByKeyword/asus",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductListByKeyword",
+								"asus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductDetails",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductDetails/654dbf2eabda0c85053c9907",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductDetails",
+								"654dbf2eabda0c85053c9907"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductReviewList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductReviewList/64f8ba608fcc62fe3de37a2e",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductReviewList",
+								"64f8ba608fcc62fe3de37a2e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductListByRemark",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/ProductListByRemark/new",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ProductListByRemark",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateReview",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user_id",
+								"value": "6576002e36b023a8b6a599e5",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\":\"64f8ba608fcc62fe3de37a2e\",\r\n     \"des\":\"baddddddddddddddddddddd\",\r\n     \"rating\":\"1.5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/CreateReview",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"CreateReview"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Otp Verification",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user_id",
+								"value": "6576002e36b023a8b6a599e5",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/OtpVerification/deshadas799@gmail.com/502198",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"OtpVerification",
+								"deshadas799@gmail.com",
+								"502198"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user_id",
+								"value": "67526af78d7e733b23d045f7",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\":\"64f8ba608fcc62fe3de37a2e\",\r\n     \"des\":\"bad\",\r\n     \"rating\":\"1.5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/Login/deshadas799@gmail.com",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"Login",
+								"deshadas799@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LogOut",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/LogOut",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"LogOut"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateProfile",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \r\n\"cus_add\":\"Sonir akhra\",\r\n\"cus_city\":\"Dhaka\",\r\n\"cus_country\":\"Bangladesh\",\r\n\"cus_fax\":\"01516005166\",\r\n\"cus_name\":\"Desha Das\",\r\n\"cus_phone\":\"015160051669\",\r\n\"cus_postcode\":\"1207\",\r\n\"cus_state\":\"Dhaka\",\r\n\"ship_add\":\"Sonir akhra\",\r\n\"ship_city\":\"Dhaka\",\r\n\"ship_country\":\"Bangladesh\",\r\n\"ship_name\":\"Rabbil Hasan\",\r\n\"ship_phone\":\"01785388919\",\r\n\"ship_postcode\":\"1207\",\r\n\"ship_state\":\"Dhaka\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/CreateProfile",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"CreateProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateProfile",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \r\n\"cus_add\":\"Sonir akhra ,Dhaka\",\r\n\"cus_city\":\"Dhaka\",\r\n\"cus_country\":\"Bangladesh\",\r\n\"cus_fax\":\"01516005166\",\r\n\"cus_name\":\"Desha Das\",\r\n\"cus_phone\":\"015160051669\",\r\n\"cus_postcode\":\"1207\",\r\n\"cus_state\":\"Dhaka\",\r\n\"ship_add\":\"Sonir akhra\",\r\n\"ship_city\":\"Dhaka\",\r\n\"ship_country\":\"Bangladesh\",\r\n\"ship_name\":\"Rabbil Hasan\",\r\n\"ship_phone\":\"01785388919\",\r\n\"ship_postcode\":\"1207\",\r\n\"ship_state\":\"Dhaka\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/UpdateProfile",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"UpdateProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ReadProfile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/ReadProfile",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"ReadProfile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Wishlist",
+			"item": [
+				{
+					"name": "CreateWishlist",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/CreateWishlist/64f87d60502e1b80556da15a",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"CreateWishlist",
+								"64f87d60502e1b80556da15a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RemoveWishlist",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/RemoveWishlist/6759d35dd225e055c559ff5f",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"RemoveWishlist",
+								"6759d35dd225e055c559ff5f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Wishlist",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/Wishlist",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"Wishlist"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cartlist",
+			"item": [
+				{
+					"name": "CreateCartlist",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\":\"64f8ba608fcc62fe3de37a2e\",\r\n    \"color\":\"blue\",\r\n    \"qty\":\"1\",\r\n    \"size\":\"38\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/CreateCartlist",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"CreateCartlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RemoveCartlist",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\":\"64f8ba608fcc62fe3de37a2e\",\r\n    \"color\":\"blue\",\r\n    \"qty\":\"1\",\r\n    \"size\":\"38\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/RemoveCartlist",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"RemoveCartlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCartlist",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							},
+							{
+								"key": "t",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\":\"64f8ba608fcc62fe3de37a2e\",\r\n    \"color\":\"blue\",\r\n    \"qty\":\"100\",\r\n    \"size\":\"38\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BASEURL}}/UpdateCartlist/675a7e01593b55a578446c62",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"UpdateCartlist",
+								"675a7e01593b55a578446c62"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cartlist",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/Cartlist",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"Cartlist"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Features",
+			"item": [
+				{
+					"name": "FeatureList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASEURL}}/FeatureList",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"FeatureList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Invoice",
+			"item": [
+				{
+					"name": "Create Invoice",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/CreateInvoice",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"CreateInvoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InvoiceList",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/InvoiceList",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"InvoiceList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PaymentSuccess",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/PaymentSuccess/16866184",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"PaymentSuccess",
+								"16866184"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PaymentCancel",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/PaymentCancel/16866184",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"PaymentCancel",
+								"16866184"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PaymentFail",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/PaymentFail/16866184",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"PaymentFail",
+								"16866184"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PaymentIPN",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/PaymentIPN/16866184",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"PaymentIPN",
+								"16866184"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InvoiceProductList",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{vault:json-web-token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BASEURL}}/InvoiceProductList/675b40e31288126279f1c885",
+							"host": [
+								"{{BASEURL}}"
+							],
+							"path": [
+								"InvoiceProductList",
+								"675b40e31288126279f1c885"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASEURL",
+			"value": "http://localhost:8000/api"
+		}
+	]
+}
